@@ -8,8 +8,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 - Install MongoDB
 - Run "npm install"
-- Jalankan aplikasi Angular, Run: "ng serve"
-  Jika error, cobalah untuk menghapus "node_modules" dan "package-lock.json", dan clear cache "npm cache clean --force". Dan jalankan "npm install" lagi.
+- Jalankan aplikasi Angular, Run: "ng serve". Jika error, cobalah untuk menghapus "node_modules" dan "package-lock.json", dan clear cache "npm cache clean --force". Dan jalankan "npm install" lagi.
 - Buat folder "images" di "backend/images"
 - Jalankan node backend "npm run start:server"
 - Aplikasi siap digunakan.
