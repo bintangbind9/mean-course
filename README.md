@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Cara Install
 - Install @angular/cli secara global "npm install -g @angular/cli"
-- Set Policy agar bisa menggunakan ng command:
+- Khusus Windows, set Policy agar bisa menggunakan ng command:
   Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 - Install MongoDB
 - Run "npm install"
