@@ -18,7 +18,8 @@ mongoose.connect(process.env.MONGO_URI)
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
-app.use("/images", express.static(path.join("images")));
+// app.use("/images", express.static(path.join("images"))); // for production
+app.use("/images", express.static(path.join("backend/images"))); // for development
 
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");

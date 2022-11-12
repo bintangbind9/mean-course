@@ -2,6 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.8.
 
+## Cara Install
+- Install @angular/cli secara global "npm install -g @angular/cli"
+- Set Policy agar bisa menggunakan ng command:
+  Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+- Install MongoDB
+- Run "npm install"
+- Jalankan aplikasi Angular, Run: "ng serve"
+  Jika error, cobalah untuk menghapus "node_modules" dan "package-lock.json", dan clear cache "npm cache clean --force". Dan jalankan "npm install" lagi.
+- Buat folder "images" di "backend/images"
+- Jalankan node backend "npm run start:server"
+- Aplikasi siap digunakan.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
